@@ -1,0 +1,299 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Cinzel', Georgia, serif;
+    --font-serif: 'Lora', Georgia, serif;
+    --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+    --bg-obsidian: #0d0c0b;
+    --bg-walnut: #161210;
+    --bg-mahogany: #201915;
+    --bg-parchment: #e7dcc7;
+    --bg-parchment-muted: #cbbba0;
+    --accent-gold: #c99a4b;
+    --accent-amber: #d9822b;
+    --accent-burgundy: #7a242c;
+    --accent-emerald: #265947;
+    --text-ivory: #f2eadc;
+    --text-ash: #a89b88;
+    --border-brass: rgba(201, 154, 75, 0.28);
+  }
+
+  html {
+    background-color: var(--bg-obsidian);
+    color: var(--text-ivory);
+    font-family: var(--font-serif);
+    font-size: 16px;
+    scroll-behavior: smooth;
+  }
+
+  html[data-text-size="large"] {
+    font-size: 18px;
+  }
+
+  html[data-text-size="compact"] {
+    font-size: 14.5px;
+  }
+
+  html[data-contrast="high"] {
+    --bg-obsidian: #050505;
+    --bg-walnut: #0e0d0c;
+    --bg-mahogany: #171513;
+    --text-ivory: #ffffff;
+    --text-ash: #d8ccb8;
+    --border-brass: rgba(226, 178, 86, 0.6);
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--bg-obsidian);
+    color: var(--text-ivory);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  button:focus-visible,
+  a:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible {
+    outline: 2px solid var(--accent-gold);
+    outline-offset: 2px;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-serif-body {
+  font-family: var(--font-serif);
+}
+
+.font-mono-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Subtle Victorian paper / film grain overlay */
+.victorian-grain {
+  background-image: radial-gradient(rgba(242, 234, 220, 0.03) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.parchment-surface {
+  background: linear-gradient(165deg, #efe4cf 0%, #e1d1b3 58%, #d6c3a0 100%);
+  color: #211811;
+}
+
+.leather-surface {
+  background: linear-gradient(160deg, #1b1512 0%, #130f0d 100%);
+  border: 1px solid var(--border-brass);
+}
+
+/* Rain & candle atmosphere */
+@keyframes rain-fall {
+  0% {
+    transform: translate3d(0, -10%, 0);
+  }
+  100% {
+    transform: translate3d(-4%, 15%, 0);
+  }
+}
+
+@keyframes candle-flicker {
+  0%, 100% {
+    opacity: 0.88;
+    transform: scale(1);
+  }
+  40% {
+    opacity: 0.98;
+    transform: scale(1.02);
+  }
+  70% {
+    opacity: 0.82;
+    transform: scale(0.99);
+  }
+}
+
+@keyframes thunder-flash {
+  0%, 92%, 100% {
+    opacity: 0;
+  }
+  93% {
+    opacity: 0.22;
+  }
+  95% {
+    opacity: 0.04;
+  }
+  97% {
+    opacity: 0.14;
+  }
+}
+
+@keyframes observe-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(201, 154, 75, 0.45);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(201, 154, 75, 0);
+  }
+}
+
+@keyframes dossier-reveal {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 10px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes parchment-unfold {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 8px, 0) scale(0.992);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+@keyframes ledger-item-reveal {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 7px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes section-enter {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 12px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.animate-rain {
+  animation: rain-fall 1.6s linear infinite;
+}
+
+.animate-candle {
+  animation: candle-flicker 3.4s ease-in-out infinite;
+}
+
+.animate-thunder {
+  animation: thunder-flash 14s ease-in-out infinite;
+}
+
+.animate-observe-ring {
+  animation: observe-pulse 2.2s ease-in-out infinite;
+}
+
+.animate-section-enter {
+  animation: section-enter 340ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-dossier-reveal {
+  animation: dossier-reveal 380ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-parchment-unfold {
+  animation: parchment-unfold 400ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-ledger-item {
+  animation: ledger-item-reveal 340ms cubic-bezier(0.22, 1, 0.36, 1) backwards;
+}
+
+/* Tactile brass & parchment hover lift for Evidence & Mind Palace cards */
+.evidence-card-hover {
+  transition:
+    transform 220ms cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 220ms ease,
+    background-color 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.evidence-card-hover:hover {
+  transform: translate3d(0, -2px, 0);
+  border-color: rgba(201, 154, 75, 0.68);
+  box-shadow:
+    0 10px 22px -12px rgba(0, 0, 0, 0.85),
+    0 0 0 1px rgba(201, 154, 75, 0.16);
+}
+
+.evidence-card-hover:active {
+  transform: translate3d(0, 0, 0);
+}
+
+.reveal-stagger > * {
+  animation: ledger-item-reveal 340ms cubic-bezier(0.22, 1, 0.36, 1) backwards;
+}
+
+.reveal-stagger > *:nth-child(1) { animation-delay: 20ms; }
+.reveal-stagger > *:nth-child(2) { animation-delay: 45ms; }
+.reveal-stagger > *:nth-child(3) { animation-delay: 70ms; }
+.reveal-stagger > *:nth-child(4) { animation-delay: 95ms; }
+.reveal-stagger > *:nth-child(5) { animation-delay: 120ms; }
+.reveal-stagger > *:nth-child(6) { animation-delay: 145ms; }
+.reveal-stagger > *:nth-child(7) { animation-delay: 170ms; }
+.reveal-stagger > *:nth-child(8) { animation-delay: 195ms; }
+.reveal-stagger > *:nth-child(n + 9) { animation-delay: 220ms; }
+
+html[data-reduced-motion="true"] *,
+html[data-reduced-motion="true"] *::before,
+html[data-reduced-motion="true"] *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-rain,
+  .animate-candle,
+  .animate-thunder,
+  .animate-observe-ring,
+  .animate-section-enter,
+  .animate-dossier-reveal,
+  .animate-parchment-unfold,
+  .animate-ledger-item,
+  .reveal-stagger > * {
+    animation: none !important;
+  }
+  .evidence-card-hover {
+    transition: none !important;
+  }
+}
+
+/* Custom sleek dark scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #110e0c;
+}
+::-webkit-scrollbar-thumb {
+  background: #3d3126;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5a4635;
+}

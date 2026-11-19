@@ -1,0 +1,6 @@
+{
+  "name": "The Gilded Riddle",
+  "description": "A cinematic Victorian consulting-detective investigation game. Observe everything. Assume nothing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
