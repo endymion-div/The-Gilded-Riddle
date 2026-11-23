@@ -1,54 +1,59 @@
 # 🕵️ The Gilded Riddle
 
-### *Observe everything. Assume nothing. Solve the impossible.*
+### *Observe everything. Assume nothing. Prove the impossible.*
 
-**The Gilded Riddle** is a cinematic Victorian detective mystery game where players step into the role of a brilliant consulting detective investigating a seemingly impossible locked-room murder at **Ashcroft Manor**.
+**The Gilded Riddle** is a cinematic Victorian detective mystery game built around **observation, interrogation, evidence analysis, timeline reconstruction, and logical deduction**.
 
-Instead of relying on random guessing, players must carefully **observe the environment, interrogate suspects, analyze evidence, reconstruct timelines, identify contradictions, form hypotheses, and connect clues through logical deduction**.
+Set inside the storm-lashed **Ashcroft Manor**, players take on the role of a consulting detective investigating a seemingly impossible locked-room murder.
 
-> **Every clue matters. Every statement can be questioned. Every detail may hide the truth.**
+There is no single obvious clue.
+
+Every statement can be questioned.  
+Every object may have a hidden purpose.  
+Every suspect has something to hide.
+
+Your objective isn't simply to **find the murderer**.
+
+### **You must prove it.**
 
 ---
 
-## 🎭 Game Overview
+## 🎬 The Case
 
-A storm rages outside Ashcroft Manor.
+A violent storm surrounds Ashcroft Manor.
 
-Inside the mansion, wealthy industrialist **Sir Reginald Ashcroft** has been found dead in a locked study.
+Inside the mansion, wealthy industrialist **Sir Reginald Ashcroft** has been discovered dead inside his locked study.
 
-The doors were secured.
+The room appears impossible to access.
 
-The windows were inaccessible.
+The doors were secured.  
+The windows were inaccessible.  
+No obvious intruder was seen.
 
-Nobody appears to have entered or left the room.
+Six people were inside the manor.
 
-Six people were present in the mansion.
+Six possible stories.
 
-Everyone has a motive.
+Six possible motives.
 
-Everyone has something to hide.
+And somewhere among them lies the truth.
 
-Your task is simple:
-
-### **Find the murderer.**
-
-But solving the case requires more than finding suspicious characters.
-
-You must determine:
+Your investigation must answer:
 
 - Who is lying?
-- Which evidence is genuine?
-- Which clues are red herrings?
-- What happened before the murder?
+- Which evidence can be trusted?
+- What actually happened inside the study?
 - How was the locked room created?
-- What contradiction exposes the killer?
-- Can you prove your accusation?
+- Which statement contradicts the physical evidence?
+- Who had the opportunity to commit the murder?
+- Can you construct a timeline that explains everything?
+- Can you prove your accusation beyond reasonable doubt?
 
 ---
 
-# 🔎 Core Gameplay
+# 🔎 Core Investigation
 
-The game follows a five-stage detective process:
+The game is structured around a five-stage detective methodology:
 
 ```text
 OBSERVE
@@ -62,68 +67,86 @@ DEDUCE
 PROVE
 ```
 
-### 👁️ 1. Observation
+Unlike conventional mystery games, the player is encouraged to **build and test theories** rather than simply select the most suspicious character.
 
-Explore the mansion and carefully inspect your surroundings.
+---
 
-Look for:
+## 👁️ 1. Observation
+
+Explore Ashcroft Manor and inspect your surroundings.
+
+Look for subtle details such as:
 
 - Hidden objects
-- Unusual marks
 - Suspicious documents
 - Broken objects
 - Footprints
-- Clocks
+- Bloodstains
+- Antique clocks
 - Letters
 - Weapons
+- Unusual marks
 - Environmental inconsistencies
+- Objects that appear out of place
 
-Some clues are deliberately subtle.
+Some clues may seem insignificant when first discovered.
 
----
-
-### 🧪 2. Evidence Analysis
-
-Collect and examine evidence throughout the investigation.
-
-Each piece of evidence can contain information about:
-
-- Location
-- Time
-- Ownership
-- Reliability
-- Possible meaning
-- Connections to other clues
-
-Not every clue directly identifies the murderer.
-
-Some exist to mislead you.
+Their importance may only become apparent later.
 
 ---
 
-### 💬 3. Interrogation
+## 🧪 2. Evidence Analysis
 
-Question the six suspects and analyze their answers.
+Every significant discovery becomes part of your investigation.
 
-Interrogation options include:
+Evidence can contain information about:
+
+| Property | Purpose |
+|---|---|
+| Location | Where it was discovered |
+| Time | When it may have become relevant |
+| Ownership | Who it may belong to |
+| Reliability | How trustworthy it is |
+| Meaning | What it may imply |
+| Connections | Which clues it relates to |
+
+Not every suspicious clue is evidence of guilt.
+
+Some clues are intentionally designed as **red herrings**.
+
+---
+
+# 💬 3. Interrogation System
+
+Interview the six major characters and investigate their stories.
+
+### Available interrogation actions
 
 - **ASK** — Request information
-- **PRESS** — Push for more details
-- **OBSERVE** — Study behavior
+- **PRESS** — Demand additional details
+- **OBSERVE** — Study reactions and behavior
 - **CHALLENGE** — Question inconsistencies
 - **PRESENT EVIDENCE** — Confront a suspect
 - **CHANGE SUBJECT** — Redirect the conversation
-- **END INTERVIEW** — Finish questioning
+- **END INTERVIEW** — Leave the interrogation
 
-A suspect's story may change when confronted with new evidence.
+A suspect's testimony can change depending on:
+
+- Previously discovered evidence
+- Questions already asked
+- Contradictions uncovered
+- Timeline discoveries
+- Evidence presented during the interview
+
+The order in which you investigate can therefore affect the information you uncover.
 
 ---
 
 # 🧠 The Mind Palace
 
-The **Mind Palace** is the central deduction system.
+The **Mind Palace** is the central deduction system of *The Gilded Riddle*.
 
-Players can organize:
+Players can organize and connect:
 
 - 🔍 Observations
 - 📜 Statements
@@ -132,9 +155,11 @@ Players can organize:
 - ⚠️ Contradictions
 - 🧠 Conclusions
 
-Connect clues together to construct logical deductions.
+The goal is not simply to collect clues.
 
-For example:
+The goal is to **connect them logically**.
+
+### Example
 
 ```text
 Broken Clock
@@ -146,38 +171,45 @@ Bloodstain Location
 Incorrect Timeline
       ↓
 Suspect's Alibi Becomes Impossible
+      ↓
+New Interrogation Opportunity
+      ↓
+Contradiction
 ```
 
-The game rewards **reasoning**, not simply collecting every available clue.
+A successful deduction should emerge from evidence rather than guesswork.
 
 ---
 
 # 🕰️ Timeline Reconstruction
 
-Reconstruct the events surrounding the murder.
+Time is one of the most important pieces of evidence in the investigation.
+
+Reconstruct what happened before, during, and after the murder.
 
 Determine:
 
 - Where each suspect was
+- When they were there
 - When important events occurred
 - Which statements agree
 - Which statements conflict
 - What happened immediately before the murder
 - What happened immediately afterward
 
-A seemingly innocent statement can become suspicious when placed on the correct timeline.
+A seemingly harmless statement may become incriminating once placed on the correct timeline.
 
 ---
 
-# 🗣️ Suspects
+# 👥 The Suspects
 
-Six major characters are connected to the case.
+Six key characters are connected to the case.
 
 ### Lady Evelyn Ashcroft
 
 The victim's wife.
 
-Elegant, composed and difficult to read.
+Elegant, controlled and difficult to read.
 
 ### Lord Edward Ashcroft
 
@@ -187,63 +219,181 @@ He stands to inherit the Ashcroft fortune.
 
 ### Dr. Arthur Pembroke
 
-A respected physician and longtime associate of the family.
+A respected physician and longtime family associate.
 
-His medical knowledge may be important to the investigation.
+His medical knowledge may be crucial to the investigation.
 
 ### Miss Beatrice Vale
 
 The family's private secretary.
 
-She knows more about the household than she initially admits.
+She knows the household's secrets better than she admits.
 
 ### Mr. Thomas Ward
 
 The manor's trusted butler.
 
-He knows the building better than anyone.
+He knows the building, its rooms and its routines better than anyone.
 
 ### Inspector Charles Harrow
 
 The official investigator.
 
-Helpful, skeptical and possibly hiding information of his own.
+Helpful, skeptical and potentially withholding information of his own.
 
 ---
 
 # 🔐 The Locked-Room Mystery
 
-At the heart of the case is an apparently impossible murder.
+At the center of the investigation lies an apparently impossible murder.
 
-The player must determine:
+The central question:
 
-> **How could the murder have happened if the room was locked?**
+> **How could the murder have occurred if nobody could enter or leave the locked study?**
 
-The solution requires connecting multiple pieces of evidence rather than finding one obvious clue.
+The solution is not revealed through a single hidden object.
 
-The locked-room puzzle forms the central mystery of the game.
+Players must combine:
+
+```text
+Physical Evidence
+      +
+Witness Testimony
+      +
+Timeline
+      +
+Room Layout
+      +
+Contradictions
+      ↓
+Locked-Room Explanation
+```
+
+The investigation rewards players who question assumptions and examine apparently unrelated details.
+
+---
+
+# ⚠️ Contradiction Engine
+
+One of the game's core systems is the **Contradiction Engine**.
+
+The system compares information across:
+
+- Suspect statements
+- Physical evidence
+- Timeline events
+- Previous testimony
+- Environmental observations
+
+When conflicting information is discovered, it can unlock new investigative possibilities.
+
+### Example
+
+```text
+Suspect:
+"I never entered the study."
+
+Evidence:
+Their personal object is discovered inside.
+
+Investigation:
+Contradiction detected.
+
+Result:
+New interrogation path unlocked.
+```
+
+A contradiction does not automatically mean someone is guilty.
+
+It means their story deserves closer examination.
+
+---
+
+# 🪤 Red Herring System
+
+The game deliberately separates:
+
+### Suspicious
+
+from
+
+### Guilty
+
+Some evidence exists to create false leads and misleading theories.
+
+Players must determine whether a clue:
+
+- Proves something
+- Suggests something
+- Contradicts something
+- Is irrelevant
+- Is deliberately misleading
+
+This prevents the investigation from becoming a simple **"pick the suspicious person"** game.
+
+---
+
+# 💡 Hypothesis System
+
+Players can create and test their own theories.
+
+### Example
+
+```text
+HYPOTHESIS
+
+"Lord Edward murdered his father."
+
+Evidence For:
+✓ Financial motive
+✓ Argument witnessed earlier
+
+Evidence Against:
+✗ Timeline conflict
+✗ No confirmed access to the study
+
+Status:
+UNPROVEN
+```
+
+The investigation encourages players to challenge their own theories.
+
+A strong detective doesn't only ask:
+
+> "How can I prove I'm right?"
+
+They ask:
+
+> **"What evidence would prove me wrong?"**
 
 ---
 
 # 🎯 Difficulty Modes
 
-The game includes multiple detective difficulty levels.
+## 🟢 Novice
 
-### 🟢 Novice
+Designed for players who are new to detective games.
 
-Designed for players new to detective games.
+Includes:
 
-Provides stronger guidance and more obvious connections.
+- Stronger hints
+- Clearer evidence connections
+- Additional guidance
+- More forgiving deduction requirements
 
-### 🟡 Detective
+---
 
-The standard experience.
+## 🟡 Detective
 
-Players receive enough information to reason through the case without being given the solution.
+The standard investigation experience.
 
-### 🔴 Consulting Detective
+Players receive enough information to solve the case while still being required to reason independently.
 
-The hardest mode.
+---
+
+## 🔴 Consulting Detective
+
+The ultimate challenge.
 
 Minimal guidance.
 
@@ -255,14 +405,61 @@ Players must rely heavily on:
 - Evidence
 - Timeline analysis
 - Contradiction detection
+- Independent hypothesis testing
+
+---
+
+# 🏆 Final Accusation
+
+When the investigation reaches its conclusion, the player must present a complete case.
+
+The final accusation requires:
+
+| Requirement | Description |
+|---|---|
+| Murderer | Who committed the crime |
+| Motive | Why they did it |
+| Method | How the murder was carried out |
+| Timeline | When and where events occurred |
+| Evidence | The key supporting clues |
+| Contradiction | The detail that exposes the false story |
+| Proof | Why the complete theory explains the evidence |
+
+The game evaluates the **quality of the player's reasoning**, not simply whether they selected the correct suspect.
+
+---
+
+# 🎬 Multiple Endings
+
+Your investigation can produce different outcomes.
+
+### 🏆 Case Solved
+
+The murderer is correctly identified and the evidence forms a convincing case.
+
+### 🔎 Correct Suspect, Weak Proof
+
+The correct suspect is identified, but the player cannot establish a sufficiently strong case.
+
+### ⚠️ False Accusation
+
+The wrong person is accused.
+
+### ❓ Unsolved Mystery
+
+The investigation fails to establish a reliable conclusion.
+
+### 🧠 Perfect Deduction
+
+The player correctly reconstructs the murder, motive, method, timeline and decisive contradiction.
 
 ---
 
 # 🎨 Visual Design
 
-The game uses a cinematic Victorian aesthetic inspired by classic detective fiction.
+The game uses a cinematic **Victorian mystery aesthetic**.
 
-### Visual elements include:
+### Visual themes
 
 - Victorian mansion interiors
 - Dark wooden furniture
@@ -272,22 +469,22 @@ The game uses a cinematic Victorian aesthetic inspired by classic detective fict
 - Antique clocks
 - Leather furniture
 - Rain-covered windows
-- Fog
 - Storm lighting
+- Fog
 - Vintage documents
 - Detective notebooks
 - Old maps
 - Atmospheric shadows
 
-The interface is designed to feel like a **detective's personal investigation desk** rather than a conventional game menu.
+The interface is designed to resemble a **detective's personal investigation desk** rather than a conventional game menu.
 
 ---
 
 # 🔊 Immersive Audio
 
-The game uses layered atmospheric sound to increase immersion.
+The investigation uses layered atmospheric audio to create tension.
 
-### Environmental Audio
+### Environmental Sound
 
 - 🌧️ Rain
 - ⛈️ Thunder
@@ -297,18 +494,18 @@ The game uses layered atmospheric sound to increase immersion.
 - 👞 Footsteps
 - 🚪 Door creaks
 
-### Investigation Audio
+### Investigation Sound
 
-- Evidence discovery sounds
+- Evidence discovery effects
 - Paper movement
 - Page turning
 - Typewriter sounds
-- Subtle notification effects
 - Interrogation tension cues
+- Deduction confirmation effects
 
-### Dynamic Music
+### Dynamic Audio
 
-The soundtrack changes depending on the player's situation.
+The atmosphere changes according to the player's investigation state:
 
 ```text
 Exploration
@@ -324,109 +521,15 @@ Final Deduction
 Reveal
 ```
 
-The game can use the **Web Audio API** as a fallback for browser-based sound effects.
-
----
-
-# ⚡ Special Game Systems
-
-## 🔍 Observation Mode
-
-Allows players to focus specifically on environmental details.
-
-Objects that initially appear ordinary may reveal additional information when examined carefully.
-
----
-
-## 🧠 Hypothesis System
-
-Players can create their own theories about the murder.
-
-Example:
-
-```text
-Hypothesis:
-"Lord Edward killed his father."
-
-Evidence For:
-✓ Financial motive
-✓ Argument witnessed earlier
-
-Evidence Against:
-✗ Timeline conflict
-✗ No access to the study
-
-Status:
-UNPROVEN
-```
-
-The player must test theories against available evidence.
-
----
-
-## ⚠️ Contradiction Engine
-
-The game tracks contradictions between:
-
-- Suspect statements
-- Physical evidence
-- Timeline events
-- Previous testimony
-
-Finding a contradiction can unlock new interrogation options.
-
----
-
-## 🪤 Red Herrings
-
-Not every suspicious clue points toward the murderer.
-
-Some evidence is deliberately misleading.
-
-Players must distinguish between:
-
-**Suspicious ≠ Guilty**
-
-This prevents the game from becoming a simple "find the suspicious person" experience.
-
----
-
-# 🏆 Final Accusation
-
-At the end of the investigation, players must present their conclusion.
-
-The final accusation requires the player to identify:
-
-- The murderer
-- The motive
-- The method
-- The timeline
-- The key evidence
-- The contradiction that proves the case
-
-The game then evaluates the player's reasoning.
-
----
-
-# 🎬 Multiple Endings
-
-Different conclusions can occur depending on the player's investigation.
-
-Possible outcomes include:
-
-- 🏆 **Case Solved** — Correct murderer and convincing proof
-- 🔎 **Correct Suspect, Weak Proof** — You found the killer but cannot fully establish the case
-- ⚠️ **False Accusation** — The wrong suspect is accused
-- ❓ **Unsolved Mystery** — The player cannot establish a reliable conclusion
-- 🧠 **Perfect Deduction** — The entire case is reconstructed correctly
+The **Web Audio API** can also be used to generate browser-based sound effects when external audio assets are unavailable.
 
 ---
 
 # 💾 Save System
 
-Investigation progress can be stored using browser-based persistence.
+Investigation progress can be preserved using browser-based persistence.
 
-The save system can preserve:
+The save system can store:
 
 - Collected evidence
 - Interrogation progress
@@ -435,6 +538,71 @@ The save system can preserve:
 - Mind Palace connections
 - Current investigation state
 - Difficulty selection
+- Ending progress
+
+Game data can be stored locally using:
+
+```text
+localStorage
+```
+
+No account is required to play the browser version.
+
+---
+
+# 🎮 Controls
+
+| Action | Control |
+|---|---|
+| Navigate | Mouse / Touch |
+| Inspect | Click |
+| Investigate | Click |
+| Interact | Click |
+| Examine Evidence | Click |
+| Interrogate | Click |
+| Open Mind Palace | Interface Button |
+| Create Hypothesis | Click |
+| Connect Clues | Drag & Drop |
+| Reconstruct Timeline | Drag & Drop |
+| Submit Accusation | Final Case Panel |
+
+---
+
+# 🧭 Detective Strategy
+
+Want to solve the case efficiently?
+
+### 1. Observe before accusing
+
+Do not immediately decide who the murderer is.
+
+### 2. Record contradictions
+
+Small inconsistencies can become major breakthroughs.
+
+### 3. Build the timeline
+
+Time can eliminate suspects even when their motives appear convincing.
+
+### 4. Question everyone
+
+An innocent suspect can still provide crucial evidence.
+
+### 5. Separate facts from theories
+
+Keep confirmed evidence separate from assumptions.
+
+### 6. Test your hypothesis
+
+Actively search for evidence that could disprove your theory.
+
+### 7. Revisit locations
+
+New information can change the meaning of previously discovered clues.
+
+### 8. Don't confuse motive with proof
+
+Having a reason to commit a crime does not establish guilt.
 
 ---
 
@@ -442,15 +610,23 @@ The save system can preserve:
 
 ## Frontend
 
-- **HTML5**
-- **CSS3**
-- **JavaScript**
+- HTML5
+- CSS3
+- JavaScript ES6+
 
 ## Game Systems
 
 - JavaScript state management
+- Event-driven architecture
 - DOM-based interaction
-- Event-driven game logic
+- Evidence management
+- Dialogue engine
+- Timeline system
+- Deduction engine
+- Contradiction detection
+
+## Browser APIs
+
 - Web Audio API
 - LocalStorage
 
@@ -458,14 +634,14 @@ The save system can preserve:
 
 - CSS animations
 - Responsive layouts
-- Dynamic panels
+- Dynamic investigation panels
 - Interactive detective board
 - Modal investigation screens
 - Atmospheric visual effects
 
 ---
 
-# 📁 Project Structure
+# 🗂️ Project Structure
 
 ```text
 The-Gilded-Riddle/
@@ -507,98 +683,60 @@ The-Gilded-Riddle/
 
 # 🚀 Getting Started
 
-## 1. Clone the Repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/your-username/The-Gilded-Riddle.git
 ```
 
-## 2. Open the Project
-
-Navigate into the project directory:
+### Enter the project directory
 
 ```bash
 cd The-Gilded-Riddle
 ```
 
-## 3. Run the Game
+### Run locally
 
-Because the project is browser-based, it can be launched using a local development server.
+The game can be launched through a local development server.
 
-For example, with VS Code:
+For example, using VS Code with **Live Server**:
 
 ```text
 Right Click → Open with Live Server
 ```
 
-Or use any local HTTP server.
+Alternatively, use any local HTTP server.
 
-Then open the provided local address in your browser.
-
----
-
-# 🎮 Controls
-
-| Action | Control |
-|---|---|
-| Navigate | Mouse / Touch |
-| Inspect | Click |
-| Interact | Click |
-| Investigate | Click |
-| Open Mind Palace | Interface Button |
-| Examine Evidence | Click |
-| Interrogate | Click |
-| Select Hypothesis | Click |
-| Connect Clues | Drag & Drop |
-| Submit Accusation | Final Case Panel |
+Then open the generated local address in a modern browser.
 
 ---
 
-# 🧩 Detective Strategy
+# 🌐 Browser Compatibility
 
-If you want to solve the case efficiently:
+The game is designed for modern browsers supporting:
 
-### 1. Observe before accusing
+- HTML5
+- CSS3
+- JavaScript ES6+
+- Web Audio API
+- LocalStorage
 
-Do not immediately decide who the murderer is.
+### Recommended
 
-### 2. Record contradictions
-
-A small inconsistency may become the most important clue.
-
-### 3. Build the timeline
-
-Time can eliminate suspects even when their motives are convincing.
-
-### 4. Question everyone
-
-A suspect may reveal useful information even if they are innocent.
-
-### 5. Separate facts from theories
-
-Keep confirmed evidence separate from assumptions.
-
-### 6. Test your hypothesis
-
-Try to disprove your own theory.
-
-A strong detective doesn't ask:
-
-> "How can I prove I'm right?"
-
-Instead, ask:
-
-> **"What evidence would prove me wrong?"**
+- Google Chrome
+- Microsoft Edge
+- Mozilla Firefox
+- Safari
 
 ---
 
-# 🧪 Development Philosophy
+# 🧪 Game Design Philosophy
 
-The game is designed around **logical deduction rather than random guessing**.
+*The Gilded Riddle* is built around a simple principle:
 
-Every major conclusion should be supported by multiple pieces of evidence.
+> **Reasoning should matter more than guessing.**
 
-The investigation system follows:
+The investigation follows:
 
 ```text
 Observation
@@ -616,121 +754,124 @@ Deduction
 Proof
 ```
 
----
+Every major conclusion should be supported by multiple pieces of evidence.
 
-# 🔒 Privacy
+The player is not simply solving a puzzle created by the developer.
 
-The game is designed as a client-side browser experience.
-
-No personal information is required to play.
-
-Local game progress may be stored using browser `localStorage`.
+They are **building the case themselves**.
 
 ---
 
-# 🌐 Browser Compatibility
+# 🔮 Future Development
 
-The game is designed for modern browsers supporting:
-
-- HTML5
-- CSS3
-- JavaScript ES6+
-- Web Audio API
-- LocalStorage
-
-Recommended browsers:
-
-- Google Chrome
-- Microsoft Edge
-- Mozilla Firefox
-- Safari
-
----
-
-# 🧑‍💻 Future Improvements
-
-Planned possibilities include:
+Potential future additions include:
 
 - [ ] Additional murder cases
+- [ ] Multiple interconnected cases
 - [ ] Procedurally generated mysteries
-- [ ] More locations
+- [ ] Additional manor locations
 - [ ] Voice acting
-- [ ] Advanced facial/body-language animations
+- [ ] Advanced character animations
+- [ ] Facial-expression systems
 - [ ] Expanded Mind Palace
 - [ ] Achievement system
 - [ ] Detective ranking system
 - [ ] Multiple playable detectives
-- [ ] More difficulty levels
+- [ ] Additional difficulty levels
 - [ ] Mobile optimization
-- [ ] Cloud save system
+- [ ] Cloud save support
 - [ ] AI-powered dialogue variation
-- [ ] Additional endings
+- [ ] More investigation endings
+- [ ] New evidence types
+- [ ] Case editor for custom mysteries
 
 ---
 
 # 🤝 Contributing
 
-Contributions are welcome.
+Contributions and ideas are welcome.
 
-If you want to improve the project:
+### 1. Fork the repository
 
-1. Fork the repository
-2. Create a feature branch
+### 2. Create a feature branch
 
 ```bash
 git checkout -b feature/new-detective-feature
 ```
 
-3. Commit your changes
+### 3. Commit your changes
 
 ```bash
 git commit -m "Add new detective feature"
 ```
 
-4. Push the branch
+### 4. Push the branch
 
 ```bash
 git push origin feature/new-detective-feature
 ```
 
-5. Open a Pull Request
+### 5. Open a Pull Request
+
+Please ensure new features maintain the game's focus on **logical investigation and deduction**.
+
+---
+
+# 🔒 Privacy
+
+*The Gilded Riddle* is designed as a client-side browser experience.
+
+- No personal information is required.
+- No account is required for the local version.
+- Investigation progress may be stored using browser `localStorage`.
+- No personal investigation data needs to leave the player's device.
 
 ---
 
 # 📜 License
 
-This project is intended as an original interactive detective-game project.
+This project is an original interactive detective-game project.
 
-All original game logic, characters, interface design, story elements and code should be treated according to the license included with the repository.
+All original game logic, characters, interface design, story elements and source code are governed by the license included in this repository.
 
 ---
 
 # 👤 Author
 
-**Sneha Ghosh**
+### **Sneha Ghosh**
 
-Computer Science Engineering — AI & ML
+**Computer Science Engineering — AI & ML**
+
+Building interactive experiences where **technology meets storytelling, logic and creativity.**
 
 ---
 
 # ⭐ Support the Project
 
-If you enjoyed **The Gilded Riddle**, consider giving the repository a ⭐ on GitHub.
+If you enjoyed **The Gilded Riddle**, consider:
 
-Share the project with other mystery and detective-game enthusiasts.
+⭐ Starring the repository  
+🍴 Forking the project  
+🐛 Reporting issues  
+💡 Suggesting new mysteries  
+🤝 Contributing improvements  
 
 ---
 
-## 🕯️ The Case Awaits
+# 🕯️ THE CASE AWAITS
 
 The storm is getting worse.
 
 The clock is ticking.
 
-Someone in Ashcroft Manor is lying.
+Someone inside Ashcroft Manor is lying.
 
-**The question is not whether you can find the murderer.**
+The evidence is waiting.
 
-### **The question is whether you can prove it.**
+The truth is buried beneath contradictions.
 
-> **Observe everything. Assume nothing. Solve the impossible.**
+### **The question is not whether you can find the murderer.**
+
+## **The question is whether you can prove it.**
+
+> *Observe everything. Assume nothing. Prove the impossible.*
