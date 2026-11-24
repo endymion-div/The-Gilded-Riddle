@@ -1,6 +1,6 @@
 # 🕵️ The Gilded Riddle
 
-### *Observe everything. Assume nothing. Prove the impossible.*
+### *Observe everything. Assume nothing. Prove the impossible..*
 
 **The Gilded Riddle** is a cinematic Victorian detective mystery game built around **observation, interrogation, evidence analysis, timeline reconstruction, and logical deduction**.
 
